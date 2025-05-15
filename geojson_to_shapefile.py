@@ -14,7 +14,7 @@ def convert_station_basin_geojson_to_shapefile(input_geojson, output_folder, cou
 
 
 # Example usage
-country = "Zimbabwe"
+country = "zim_test"
 input_geojson = "geojsons/" + country + "/stationbasins.geojson"  # Change to your input file path
 output_folder = "shapefiles/" + country  # Change to your desired output directory (without extension)
 convert_station_basin_geojson_to_shapefile(input_geojson, output_folder, country)
